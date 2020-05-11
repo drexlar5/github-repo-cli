@@ -1,0 +1,24 @@
+{
+  "name": "github-repo-cli",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Michael Agboola",
+    "url": "https://github.com/drexlar5"
+  },
+  "scripts": {
+    "start": "npx tsc && node out/index.js"
+  },
+  "dependencies": {
+    "@types/yargs": "^15.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.4",
+    "@types/request-promise": "^4.1.46",
+    "typescript": "^3.8.3"
+  }
+}
